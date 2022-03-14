@@ -32,7 +32,7 @@ font-family: Georgia, 'Times New Roman', Times, serif ;
 
 }
 
-.navlinks {
+.navLinks {
 display: flex;
 flex-direction: column;
 justify-content: space-around;
@@ -45,13 +45,13 @@ align-items: center;
 width: 20%;
 }
 
-.navlinks li {
+.navLinks li {
 
 list-style: none;
 
 }
 
-.navlinks a {
+.navLinks a {
 
 color: teal;
 text-decoration: none;
@@ -62,49 +62,61 @@ font-size: 20px;
 
 .burger div {
 
-width: 25px;
-    height: 3px;
-background-color: snow;
-margin: 5px;
-border-radius: 10%;
-}
+    width: 25px;
+        height: 3px;
+    background-color: snow;
+    margin: 5px;
+    border-radius: 10%;
+    }
 
-.line1 {
 
+.toggle .line1{
 transform: rotate(-45deg) translate(-5px, 6px);
 
-}
-.line2{
-opacity: 0;
-}
-
-.line3{
-transform: rotate(45deg) translate(-5px, -6px);
-
 
 }
 
+.toggle .line2{
+    opacity: 0;
+}
+
+.toggle .line3{
+    transform: rotate(45deg) translate(-5px, -6px);
+}
 
 
 
+.navLinks {
+display: flex;
+flex-direction: column;
+justify-content: space-around;
+position: absolute;
+right: 0px;
+height: 90vh;
+top: -90vh;
+background-color: darkblue;
+align-items: center;
+width: 20%;
+}
 
 main{
 
 background-color: darkgrey;
 grid-area: m1;
-
 }
 
 aside { 
 
 background-color: darkslategrey;
 grid-area: m2;
-
 }
 
 footer {
 
 background-color: moccasin;
 grid-area: m3;
+}
 
+.navactive {
+    transform: translate(100vh);
 }
