@@ -37,18 +37,7 @@ font-family: Georgia, 'Times New Roman', Times, serif ;
     cursor: pointer;
 }
 
-/* .navLinks {
-display: flex;
-flex-direction: column;
-justify-content: space-around;
-position: absolute;
-right: 0px;
-height: 90vh;
-top: -90vh;
-background-color: rgb(224, 125, 125);
-align-items: center;
 
-} */
 
 .navLinks li {
 
