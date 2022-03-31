@@ -2,10 +2,10 @@
 #wrapper {
 
     display: grid;
-    grid-template-rows: 100px 100px 200px 200px;
     border: solid 1px #000000;
     width: 100%;
     grid-template-areas: 
+    'na na na'
     'm1 m2 m3'
     'm1 m2 m3'
     'm1 m2 m3'
@@ -22,12 +22,11 @@ box-sizing: border-box;
 
 
 nav {
-
 display: flex;
 justify-content: flex-end;
 align-items: center;
 height: 10vh;
-
+grid-area: na;
 background-color: rgb(105, 96, 96);
 font-family: Georgia, 'Times New Roman', Times, serif ;
 }
