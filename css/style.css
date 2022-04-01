@@ -96,22 +96,99 @@ transition: all 1s;
 
 main{
 
-background-color: darkgrey;
+
 grid-area: m1;
+height: 90px;
 }
 
 aside { 
 
-background-color: rgb(132, 146, 146);
+
 grid-area: m2;
+height: 50px;
+display: flex;
+align-items: center;
+justify-content: space-around;
 }
 
 footer {
 
-background-color: moccasin;
+
 grid-area: m3;
 }
 
 .navactive {
     transform: translateY(100vh);
+}
+
+#svartset{
+width: 250px;
+height: 350px;
+
+}
+#rosaset{
+width: 250px;
+height: 350px;
+}
+#gratopp{
+width: 250px;
+height: 350px;
+}
+
+#lada{
+justify-content: space-around;
+display: flex;
+}
+#lada2{
+justify-content: space-around;
+display: flex;
+}
+figcaption{
+text-align: center;
+}
+
+#lada3{
+justify-content: space-around;
+display: flex;
+font-size: 25px;
+}
+
+#shop{
+font-size: 70px;
+display: flex ;
+justify-content: center;
+}
+
+#shoppa{
+  font-size: 25px;
+  border: 2px solid black;
+  border-radius: 10px; 
+}
+#man{
+    font-size: 25px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+
+body{
+   font-family: 'Times New Roman', Times, serif;
+   background-image: url("../img/bakgrund.jpg");
+   background-size: cover;
+}
+
+footer{
+height: 300px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+#twitter{
+height: 50px;
+width: 50px;
+}
+#instagram{
+height: 50px;
+width: 50px;
+
 }
