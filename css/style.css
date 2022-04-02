@@ -138,6 +138,7 @@ height: 350px;
 #lada{
 justify-content: space-around;
 display: flex;
+color: black;
 }
 #lada2{
 justify-content: space-around;
@@ -145,6 +146,7 @@ display: flex;
 }
 figcaption{
 text-align: center;
+color: black;
 }
 
 #lada3{
@@ -175,6 +177,11 @@ body{
    font-family: 'Times New Roman', Times, serif;
    background-image: url("../img/bakgrund.jpg");
    background-size: cover;
+}
+
+#women3{
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
 }
 
 footer{
