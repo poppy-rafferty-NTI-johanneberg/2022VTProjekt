@@ -1,3 +1,9 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    
+    }
 
 #wrapper {
 
@@ -8,17 +14,10 @@
     'na na na'
     'm1 m2 m3'
     'm1 m2 m3'
-    'm1 m2 m3'
-    ;
+    'm1 m2 m3';
 
 }
 
-* {
-margin: 0px;
-padding: 0px;
-box-sizing: border-box;
-
-}
 
 
 nav {
@@ -36,16 +35,11 @@ font-family: Georgia, 'Times New Roman', Times, serif ;
     cursor: pointer;
 }
 
-
-
 .navLinks li {
-
 list-style: none;
-
 }
 
 .navLinks a {
-
 color: rgb(255, 255, 255);
 text-decoration: none;
 letter-spacing: 3px;
@@ -54,9 +48,8 @@ font-size: 20px;
 }
 
 .burger div {
-
     width: 25px;
-        height: 3px;
+    height: 3px;
     background-color: snow;
     margin: 5px;
     border-radius: 10%;
@@ -95,15 +88,11 @@ transition: all 1s;
 }
 
 main{
-
-
 grid-area: m1;
 height: 90px;
 }
 
 aside { 
-
-
 grid-area: m2;
 height: 50px;
 display: flex;
@@ -111,11 +100,6 @@ align-items: center;
 justify-content: space-around;
 }
 
-footer {
-
-
-grid-area: m3;
-}
 
 .navactive {
     transform: translateY(100vh);
@@ -139,6 +123,32 @@ height: 350px;
 justify-content: space-around;
 display: flex;
 color: black;
+}
+@media screen and (max-width:700px){
+   
+   #lada{
+       display: grid;
+       grid-template-areas: 
+       'sv'
+       'rs'
+       'gr';
+   }
+   
+    #svartset{
+        width: 250px;
+        height: 350px;
+        grid-area: sv;
+        }
+        #rosaset{
+        width: 250px;
+        height: 350px;
+        grid-area: rs;
+        }
+        #gratopp{
+        width: 250px;
+        height: 350px;
+        grid-area: gr;
+        }   
 }
 #lada2{
 justify-content: space-around;
@@ -189,7 +199,9 @@ height: 300px;
 display: flex;
 justify-content: center;
 align-items: center;
+grid-area: m3;
 }
+
 #twitter{
 height: 50px;
 width: 50px;
